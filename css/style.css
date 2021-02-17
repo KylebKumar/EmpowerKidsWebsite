@@ -3,6 +3,7 @@ body{
 }
 .nav-text{
     color:#0099C7 !important;
+    font-family: sans-serif;
 }
 .nav-text:hover{
     color:#FF9500 !important;
