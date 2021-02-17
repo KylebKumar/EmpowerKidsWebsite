@@ -28,9 +28,6 @@ body{
     .person-text{
         min-width:85%; !important;
     }
-    .regular-text{
-        font-size: 24px;
-    }
 }
 
 .person-holder{
