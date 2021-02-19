@@ -9,7 +9,7 @@ body{
     color:#FF9500 !important;
 }
 .person-divider{
-    background: #0099C7;
+    background: black;
 
 }
 .regular-text{
@@ -44,6 +44,19 @@ body{
     align-items: center;
     margin-left: 25px;
     width:63%;
+}
+
+.sponsor-divider{
+    background: black;
+}
+.sponsor-box{
+    width:75%;
+    margin:100px auto;
+}
+
+.sponsor-image{
+    width:22.666%;
+    margin:25px 5%;
 }
 
 h1, h2, h3, h4, h5, h6, p{
