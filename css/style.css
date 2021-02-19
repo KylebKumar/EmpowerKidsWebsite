@@ -15,7 +15,8 @@ body{
 .regular-text{
     font-size:21px;
 }
-
+.navbar-nav > li > .dropdown-menu a:link,
+.navbar-nav > li > .dropdown-menu a:hover { background-color: black;}
 
 @media screen and (max-width:8in) {
     .person-holder{
