@@ -33,18 +33,19 @@ body{
 
 .person-holder{
     display: flex;
-    margin:55px 0;
+    margin:55px 5%;
     align-items: center;
 }
 .person-image{
-    width: 33%;
+    width: 37%;
+    border-radius: 50px;
 }
 .person-text{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 25px;
-    width:63%;
+    margin-left: 5%;
+    width:61%;
 }
 
 .sponsor-divider{
