@@ -15,6 +15,12 @@ body{
 .regular-text{
     font-size:21px;
 }
+.front-page-text{
+    font-size: 50px;
+    margin:0 10px;
+    font-weight: bold;
+    text-align: center;
+}
 .navbar-nav > li > .dropdown-menu a:link,
 .navbar-nav > li > .dropdown-menu a:hover { background-color: black;}
 
@@ -28,6 +34,9 @@ body{
     }
     .person-text{
         min-width:85%; !important;
+    }
+    .front-page-text{
+        font-size: 32px;
     }
 }
 
@@ -132,4 +141,56 @@ fieldset[disabled] .btn-donate.active {
 .btn-donate .badge {
     color: #0099C7;
     background-color: #FFFFFF;
+}
+/* info on fading in: https://stackoverflow.com/questions/27747970/how-to-make-images-fade-visible-when-im-scrolling/27748638*/
+.fade-in {
+    animation: fadeIn ease .5s;
+    -webkit-animation: fadeIn ease .5s;
+    -moz-animation: fadeIn ease .5s;
+    -o-animation: fadeIn ease .5s;
+    -ms-animation: fadeIn ease .5s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
