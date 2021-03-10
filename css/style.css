@@ -156,12 +156,13 @@ fieldset[disabled] .btn-donate.active {
 }
 /* info on fading in: https://stackoverflow.com/questions/27747970/how-to-make-images-fade-visible-when-im-scrolling/27748638*/
 .fade-in {
-    animation: fadeIn ease .5s;
-    -webkit-animation: fadeIn ease .5s;
-    -moz-animation: fadeIn ease .5s;
-    -o-animation: fadeIn ease .5s;
-    -ms-animation: fadeIn ease .5s;
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
 }
+
 @keyframes fadeIn {
     0% {
         opacity:0;
