@@ -56,7 +56,19 @@ body{
     margin-left: 5%;
     width:61%;
 }
-
+.program-holder{
+    display: flex;
+    flex-direction: row;
+    max-width:100%;
+}
+.program{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.program-image{
+    width:90%;
+}
 .sponsor-divider{
     background: black;
 }
