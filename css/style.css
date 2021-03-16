@@ -60,18 +60,65 @@ body{
     display: flex;
     flex-direction: row;
     max-width:100%;
-    height:inherit;
 }
 .program{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height:inherit;
     width:50%;
 }
 .program-image{
     width:50%;
 }
+.blurb{
+    width:75%;
+    margin: 25px 0;
+}
+
+.learn-more{
+    font-size:40px;
+    margin: 10px 0;
+    font-family: 'Josefin Sans',sans-serif;
+
+}
+
+.link {
+    /* RESET */
+    text-decoration: none;
+    line-height: 1;
+
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    padding: 5px 5px;
+    overflow: hidden;
+    color: black;
+    vertical-align: bottom;
+    transition: color .3s ease-out;
+}
+
+.link::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transform: translateY(calc(100% - 2px));
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(60deg, white, white);
+    /*I thing I just need to make one versions of link for each color (two in total)*/
+    transition: transform .25s ease-out;
+}
+
+.link:hover{
+    color:black;
+}
+.link:hover::before {
+    transform: translateY(0);
+    transition: transform .25s ease-out;
+}
+
 .sponsor-divider{
     background: black;
 }
