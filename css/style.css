@@ -26,6 +26,9 @@ body{
     width: 15%;
     display:block;
 }
+.contact-logo{
+    margin: 0 5px;
+}
 .navbar-nav > li > .dropdown-menu a:link,
 .navbar-nav > li > .dropdown-menu a:hover { background-color: black;}
 
