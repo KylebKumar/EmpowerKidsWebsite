@@ -70,7 +70,16 @@ body{
         height:inherit;
     }
 }
+.frontpage-image{
+    width:98%;
+    margin:10px auto;
+    display: block;
+    transition: transform .4s;
+}
 
+.frontpage-image:hover{
+    transform: scale(1.03);
+}
 .person-holder{
     display: flex;
     margin:55px 5%;
@@ -190,13 +199,6 @@ h1, h2, h3, h4, h5, h6, p{
     font-family: 'Josefin Sans',sans-serif;
 }
 
-.frontpage-image{
-    width:99%;
-    margin-left:auto;
-    margin-right: auto;
-    margin-top:5px;
-    display: block;
-}
 .underline{
     background: black;
     margin-top:0;
