@@ -61,6 +61,9 @@ body{
     .sponsor-box{
         min-width: 95%;
     }
+    .article{
+        min-width:85%;
+    }
 }
 @media screen and (min-width:8in) {
     .program-holder{
@@ -104,7 +107,8 @@ body{
     width:50%;
 }
 .article{
-    margin: 10vh 25%;
+    width:50%;
+    margin: 10vh auto;
 }
 .article-text{
     font-size: 24px;
