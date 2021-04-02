@@ -80,6 +80,13 @@ body{
 .frontpage-image:hover{
     transform: scale(1.03);
 }
+.card-holder{
+/*    https://getbootstrap.com/docs/4.0/components/card/*/
+}
+.front-card{
+
+}
+
 .person-holder{
     display: flex;
     margin:55px 5%;
