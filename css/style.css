@@ -82,9 +82,22 @@ body{
 }
 .card-holder{
 /*    https://getbootstrap.com/docs/4.0/components/card/*/
+    display: flex;
+    flex-direction:row;
+    width:75%;
+    margin:0 auto;
+    align-items: center;
 }
-.front-card{
-
+.card{
+    width:25%;
+    margin:0 auto;
+    border-radius: 10%;
+    padding:10px;
+    align-items: center;
+    transition: box-shadow .3s;
+}
+.card:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
 .person-holder{
