@@ -29,6 +29,9 @@ body{
 .contact-logo{
     margin: 0 5px;
 }
+.contact-logo:hover{
+    text-decoration: none;
+}
 .navbar-nav > li > .dropdown-menu a:link,
 .navbar-nav > li > .dropdown-menu a:hover { background-color: black;}
 
@@ -82,7 +85,18 @@ body{
     display: block;
     transition: transform .4s;
 }
-
+.zoom-in{
+    transition:transform .4s;
+}
+.zoom-in:hover{
+    transform:scale(1.05);
+}
+.zoom-in-lg{
+    transition:transform .4s;
+}
+.zoom-in-lg:hover{
+    transform:scale(1.25);
+}
 .frontpage-image:hover{
     transform: scale(1.03);
 }
@@ -105,7 +119,6 @@ body{
 .card:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
-
 .person-holder{
     display: flex;
     margin:55px 5%;
@@ -171,7 +184,7 @@ body{
     font-size:32px;
 }
 
-.link {
+.link-orange, .link-blue {
     /* RESET */
     text-decoration: none;
     line-height: 1;
@@ -186,7 +199,7 @@ body{
     transition: color .3s ease-out;
 }
 
-.link::before {
+.link-orange::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -195,15 +208,27 @@ body{
     transform: translateY(calc(100% - 2px));
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(60deg, white, white);
-    /*I thing I just need to make one versions of link for each color (two in total)*/
+    background-image: linear-gradient(60deg, #FF9500, white);
     transition: transform .25s ease-out;
 }
 
-.link:hover{
+.link-blue::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transform: translateY(calc(100% - 2px));
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(60deg, #0099C7, white);
+    transition: transform .25s ease-out;
+}
+
+.link-orange:hover, .link-blue:hover{
     color:black;
 }
-.link:hover::before {
+.link-orange:hover::before, .link-blue:hover::before {
     transform: translateY(0);
     transition: transform .25s ease-out;
 }
