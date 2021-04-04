@@ -64,6 +64,12 @@ body{
     .article{
         min-width:85%;
     }
+    .card-holder{
+        flex-direction: column;
+    }
+    .card{
+        min-width:75%;
+    }
 }
 @media screen and (min-width:8in) {
     .program-holder{
@@ -83,14 +89,14 @@ body{
 .card-holder{
 /*    https://getbootstrap.com/docs/4.0/components/card/*/
     display: flex;
-    flex-direction:row;
-    width:75%;
+    width:90%;
     margin:0 auto;
     align-items: center;
 }
 .card{
-    width:25%;
-    margin:0 auto;
+    width:30%;
+    height:500px;
+    margin:10px auto;
     border-radius: 10%;
     padding:10px;
     align-items: center;
