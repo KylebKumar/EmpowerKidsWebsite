@@ -83,7 +83,12 @@ body{
     width:98%;
     margin:10px auto;
     display: block;
+}
+.zoom-in-sm{
     transition: transform .4s;
+}
+.zoom-in-sm:hover{
+    transform:scale(1.03);
 }
 .zoom-in{
     transition:transform .4s;
@@ -96,9 +101,6 @@ body{
 }
 .zoom-in-lg:hover{
     transform:scale(1.25);
-}
-.frontpage-image:hover{
-    transform: scale(1.03);
 }
 .card-holder{
 /*    https://getbootstrap.com/docs/4.0/components/card/*/
