@@ -163,6 +163,15 @@ body{
 .article-text{
     font-size: 24px;
 }
+.article-caption{
+    font-size:18px;
+    text-align: center;
+    margin: 10px auto;
+}
+.article-image{
+    width:75%;
+    margin: 0 12.5%;
+}
 .blurb{
     width:75%;
     margin: 25px 0;
