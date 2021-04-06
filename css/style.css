@@ -172,6 +172,10 @@ body{
     width:75%;
     margin: 0 12.5%;
 }
+.article-image-tall{
+    width:60%;
+    margin: 10px 20%;
+}
 .blurb{
     width:75%;
     margin: 25px 0;
