@@ -113,13 +113,19 @@ body{
     width:30%;
     height:500px;
     margin:10px auto;
-    border-radius: 10%;
+    border-radius: 50px;
     padding:10px;
     align-items: center;
     transition: box-shadow .3s;
 }
 .card:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.card img{
+    transition:transform .3s;
+}
+.card:hover img{
+    transform:scale(1.03);
 }
 .person-holder{
     display: flex;
